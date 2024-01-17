@@ -1,27 +1,31 @@
 h1.a {
   font-family: "Cedarville", cursive;
-  font-size: 75px;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 body {
-  background-color: snow;
+  background-color: rgb(248, 222, 226);
   margin: 50px;
   text-overflow: ellipsis;
   max-width: 680px;
   display: table-cell;
-}
-
-body {
   height: 100%;
+  text-align: center;
 }
 
 html {
   display: table;
   margin: auto;
-}
-
-h1 {
-  font-size: 80px;
 }
 
 a:hover {
@@ -35,7 +39,10 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
 }
 p {
   text-align: center;
@@ -59,11 +66,25 @@ div {
 }
 
 button {
-  background-color: lightpink;
+  background-color: white;
   color: black;
   border: white;
+  padding: 12px 20px;
   text-align: center;
-  margin: 10px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+  color: pink;
+}
+
+img {
+  padding: 20px;
+  width: 1600px;
+  height: 400px;
 }
