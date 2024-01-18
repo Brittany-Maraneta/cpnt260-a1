@@ -1,6 +1,7 @@
 CPNT 260
 Assignment 1
 Brittany Maraneta
+https://brittany-maraneta.github.io/cpnt260-a1/
 https://github.com/Brittany-Maraneta/cpnt260-a1.git
 
 Reference on w3schools
