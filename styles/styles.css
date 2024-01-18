@@ -23,13 +23,13 @@ body {
   text-align: center;
 }
 
+a:hover {
+  background-color: lightpink;
+}
+
 html {
   display: table;
   margin: auto;
-}
-
-a:hover {
-  background-color: lightpink;
 }
 
 a {
@@ -69,10 +69,7 @@ button {
   background-color: white;
   color: black;
   border: white;
-  padding: 12px 20px;
-  text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
